@@ -1,0 +1,20 @@
+body{
+    background-image:url(../Imagem/images.jpg);
+}
+
+#imagem {
+   
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: fly;
+    animation-timing-function:linear;
+    animation-direction:reverse;
+}
+@keyframes fly{
+    from{
+        transform:translatex(1000px)
+    }
+    to{
+        transform:translatex(calc(100vw-200px))
+    }
+}
